@@ -41,7 +41,13 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     arel (8.0.0)
+    autoprefixer-rails (7.2.5)
+      execjs
     bindex (0.5.0)
+    bootstrap (4.0.0)
+      autoprefixer-rails (>= 6.0.3)
+      popper_js (>= 1.12.9, < 2)
+      sass (>= 3.5.2)
     builder (3.2.3)
     byebug (10.0.0)
     capybara (2.18.0)
@@ -85,6 +91,7 @@ GEM
     nio4r (2.3.0)
     nokogiri (1.8.2-x64-mingw32)
       mini_portile2 (~> 2.3.0)
+    popper_js (1.12.9)
     public_suffix (3.0.2)
     puma (3.11.3)
     rack (2.0.4)
@@ -167,6 +174,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bootstrap
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
