@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Private Hostel</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <%= link_to 'Private Hostel', root_path, class: 'navbar-brand' %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -10,10 +12,13 @@
         <%= link_to 'Home', root_path, class: 'nav-link' %>
       </li>
       <li class="nav-item">
-        <%= link_to 'About', about_path, class: 'nav-link' %>
+        <%= link_to 'About Us', about_path, class: 'nav-link' %>
       </li>
       <li class="nav-item">
         <%= link_to 'Hostel', hostels_path, class: 'nav-link' %>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'Reviews', about_path, class: 'nav-link' %>
       </li>
       <li class="nav-item">
         <%= link_to 'Contact', contact_path, class: 'nav-link' %>
