@@ -7,6 +7,4 @@ class StaticPagesController < ApplicationController
 
   def contact; end
 
-  def reviews; end
-
 end
