@@ -20,8 +20,8 @@
 }
 
 .bg-hostel-white {
-  background-color: #333333;
-  color: #FFFFFF;
+  background-color: white;
+  color: lightcoral;
 }
 
 nav li {
@@ -31,9 +31,9 @@ nav li {
 
 
 .navbar a {
-  color: #FFFFFF;
+  color: lightcoral;
 }  ul li a {
-  color:white;
+  color:lightcoral;
 }
 
 .navbar a:hover {
@@ -44,13 +44,13 @@ nav li {
 
 footer {
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   padding: 20px;
-  background-color: #333333;;
+  background-color: white;;
 }  p {
-  color: #FFFFFF;
+  color: lightcoral;
 }  a {
-  color: #FFFFFF;
+  color: lightcoral;
 }
 
 .jumbotext {
@@ -63,7 +63,6 @@ footer {
   height:300px;
   display: block;
   background-size: cover;
-  background-image: image-url("1.jpg")
 }
 
 .material-icons.togglewhite {
